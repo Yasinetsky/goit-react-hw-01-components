@@ -50,6 +50,7 @@
     padding: 0;
     text-align: center;
     background-color: #bee4f38e;
+    border-top: 1px solid rgb(170, 161, 161);
 }
 
 .stats_item:not(:last-child) {
