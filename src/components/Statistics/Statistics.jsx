@@ -7,23 +7,6 @@ function getRandomColor() {
 }
 
 
-// export default function Statistics({ items }) {
-
-//   return <div className={st.statistics}>
-//     <h2 className={st.title}>Upload stats</h2>
-
-//     <ul className={st.stats}>
-//       {items.map(({ id, label, percentage }) => (
-        
-//         <li className={st.item} key={id} style={{backgroundColor: getRandomColor()}}>
-//               <span className={st.label}>{label}</span>
-//               <span className={st.percentage}>{percentage}%</span>
-//         </li>
-//       ))}
-//       </ul>
-//     </div>
-// }
-
 
 export default function Statistics({ title, items }) {
   return (
